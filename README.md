@@ -1,8 +1,3 @@
+# Professional README Generator Starter Code
 
-    run buddy 
-    ==========================
-
-    DESCRIPTION
-    -----------
-    undefined
-    
+[How to create a Professional README](./readme-guide.md)

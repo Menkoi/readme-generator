@@ -21,11 +21,11 @@ function generateMarkdown(data) {
 
   ## Table of contents
 
-  [Installation](#installation)
-  [Usage](#usage)
-  [License](#license)
-  [contributions](#Contributors)
-  [Test](#Test)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [contributions](#Contributors)
+  * [Test](#Test)
 
   ## Installation
   ${data.installation}
@@ -34,13 +34,22 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  https://img.shields.io/badge/dynamic/yaml?url=<URL>&label=<LABEL>&query=${data.license}>&color=<COLOR>&prefix=<PREFIX>&suffix=<SUFFIX>
 
   ## Contributors
   ${data.contributing}
 
   ## Test
   ${data.test}
+
+  ## Repository
+  ${data.repo}
+
+  # GitHub
+  - ${data.github}
+  - [Github Profile] (https://github.com/${data.github})
+  - ${data.email}
+
 
 `;
 }

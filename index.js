@@ -28,7 +28,20 @@ const questions = () => {
             if(nameInput) {
                 return true;
             } else {
-                console.log('Please enter your name!');
+                console.log('Please enter your Github name!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your Github email (Required)',
+        validate: nameInput => {
+            if(nameInput) {
+                return true;
+            } else {
+                console.log('Please enter your email!');
                 return false;
             }
         }
@@ -59,7 +72,8 @@ const questions = () => {
     {
         type: "input",
         name: "license",
-        message: "Please provide the project license or your badge link"
+        message: "Please provide the project license or your badge link",
+        choices: ['MIT', 'The Unlicense', 'Mozilla Public License', 'GNU AGPLv3', 'Apache License 2.0', 'Boost Software License 1.0']
     },
     {
         type: "input",
@@ -87,13 +101,6 @@ questions()
  .then(pageHTML => {
     return writeFile(pageHTML);
 })
-
-// TODO: Create a function to write README file
-//fs.writeFile('./README.md',generateMarkdown(data, githubInfo) , err => {
-  //  if(err) throw err;
-
-  //  console.log('README complete! check out README.md to see the output!');
-//});
 
 // TODO: Create a function to initialize app
 //function init() {}

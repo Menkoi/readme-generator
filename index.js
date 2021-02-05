@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const { writeFile } = require('./utils/generate-site.js');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -80,12 +81,18 @@ const questions = () => {
 };
 
 questions()
+.then(data => {
+    return generateMarkdown(data);
+ })
+ .then(pageHTML => {
+    return writeFile(pageHTML);
+})
 
 // TODO: Create a function to write README file
-//fs.writeFile("README.md", generateMarkdown(data), function (err) {
-  //  if (err) {
-  //      throw err;
-  // }
+//fs.writeFile('./README.md',generateMarkdown(data, githubInfo) , err => {
+  //  if(err) throw err;
+
+  //  console.log('README complete! check out README.md to see the output!');
 //});
 
 // TODO: Create a function to initialize app

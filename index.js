@@ -4,7 +4,8 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
-const questions = [
+const questions = () => {
+    return inquirer.prompt([
     {
         type: 'input',
         name: 'title',
@@ -74,17 +75,21 @@ const questions = [
         name: "repo",
         message: "What is your repo link?"
     },
-    
-    
-];
+
+  ]);
+};
+
+questions()
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName, data) => {
-    
-}
+//fs.writeFile("README.md", generateMarkdown(data), function (err) {
+  //  if (err) {
+  //      throw err;
+  // }
+//});
 
 // TODO: Create a function to initialize app
-function init() {}
+//function init() {}
 
 // Function call to initialize app
-init();
+//init();

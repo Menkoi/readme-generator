@@ -25,7 +25,7 @@
   N/A
 
   ## License
-  MIT
+  N/A
 
   ## Contributors
   Menkoi

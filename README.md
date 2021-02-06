@@ -1,12 +1,12 @@
 
   
-  # d;kjkflsdjf 
+  # Readme Generator
 
 ![badmath](https://img.shields.io/badge/License-N/A-red)
 
 
   ## Description
-  sldkjfksd
+  Generate a clean readme file using only Node.js
 
   ## Table of contents
 
@@ -19,28 +19,28 @@
   * [Questions](#Questions)
 
   ## Installation
-  skldfjklsd
-
-  ## Usage
-  skdljfksd
-
-  ## License
   N/A
 
+  ## Usage
+  N/A
+
+  ## License
+  MIT
+
   ## Contributors
-  sdlkjfklds
+  Menkoi
 
   ## Test
-  klsjdfkljds
+  N/A
 
   ## Repository
-  lksdklf
+  https://github.com/Menkoi/readme-generator
 
   ## Questions? Contact me
 
-  - klsdjfkls
+  - Menkoi
 
-  - https://github.com/klsdjfkls
+  - https://github.com/Menkoi
 
-  - klsdjfk
+  - celaeon@gmail.com
 

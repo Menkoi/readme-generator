@@ -26,6 +26,8 @@ function generateMarkdown(data) {
   * [License](#license)
   * [contributions](#Contributors)
   * [Test](#Test)
+  * [Repository](#Repository)
+  * [Questions?](#Questions)
 
   ## Installation
   ${data.installation}
@@ -34,7 +36,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  https://img.shields.io/badge/dynamic/yaml?url=<URL>&label=<LABEL>&query=${data.license}>&color=<COLOR>&prefix=<PREFIX>&suffix=<SUFFIX>
+  ${data.license}
 
   ## Contributors
   ${data.contributing}
@@ -45,9 +47,12 @@ function generateMarkdown(data) {
   ## Repository
   ${data.repo}
 
-  # GitHub
+  ## Questions? Contact me
+
   - ${data.github}
-  - [Github Profile] (https://github.com/${data.github})
+
+  - (https://github.com/${data.github})
+
   - ${data.email}
 
 

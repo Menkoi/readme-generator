@@ -1,9 +1,9 @@
 
   
-  # RUN BUDDY
+  # run buddy
 
   ## Description
-  health app
+  heatlh app to tack your body
 
   ## Table of contents
 
@@ -14,13 +14,13 @@
   * [Test](#Test)
 
   ## Installation
-  download it 
+  download it
 
   ## Usage
   yes
 
   ## License
-  https://img.shields.io/badge/dynamic/yaml?url=<URL>&label=<LABEL>&query=no>&color=<COLOR>&prefix=<PREFIX>&suffix=<SUFFIX>
+  MIT
 
   ## Contributors
   me
@@ -31,9 +31,12 @@
   ## Repository
   no
 
-  # GitHub
+  ## Questions? Contact me
+
   - Menkoi
-  - [Github Profile] (https://github.com/Menkoi)
+
+  - (https://github.com/Menkoi)
+
   - celaeon@gmail.com
 
 

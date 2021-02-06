@@ -2,11 +2,14 @@
   
   # Readme Generator
 
-![badmath](https://img.shields.io/badge/License-N/A-red)
+![badmath](https://img.shields.io/badge/License-MIT-red)
 
 
   ## Description
   Generate a clean readme file using only Node.js
+  
+  Link to watch demo video:
+  https://drive.google.com/file/d/1Cp4lGmmeoh4HZGA7iItNNOQK7g2a4dpJ/view
 
   ## Table of contents
 
@@ -19,13 +22,13 @@
   * [Questions](#Questions)
 
   ## Installation
-  N/A
+ Simply clone the code into your repo and install dependencies with 'npm i' command in terminal, then run the program with the command 'node index.js'.
 
   ## Usage
   N/A
 
   ## License
-  N/A
+  MIT
 
   ## Contributors
   Menkoi

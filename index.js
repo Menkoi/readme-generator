@@ -10,7 +10,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'title',
-        message: 'what is your  project name? (Required)',
+        message: 'what is your  project name? (Required):',
         validate: nameInput => {
             if(nameInput) {
                 return true;
@@ -23,7 +23,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'github',
-        message: 'Enter your Github Username (Required)',
+        message: 'Enter your Github Username (Required):',
         validate: nameInput => {
             if(nameInput) {
                 return true;
@@ -36,7 +36,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'email',
-        message: 'Enter your Github email (Required)',
+        message: 'Enter your Github email (Required):',
         validate: nameInput => {
             if(nameInput) {
                 return true;
@@ -49,7 +49,7 @@ const questions = () => {
     {
         type: "input",
         name: "description",
-        message: "Please provide your project's description (Required)",
+        message: "Please provide your project's description (Required):",
         validate: nameInput => {
             if(nameInput) {
                 return true;
@@ -62,7 +62,7 @@ const questions = () => {
     {
         type: "type",
         name: "installation",
-        message: "Please provide the installation instructions"
+        message: "Please provide the installation instructions:"
     },
     {
         type: "input",
@@ -70,25 +70,25 @@ const questions = () => {
         message: "Please provide the project usage:"
     },
     {
-        type: "input",
+        type: "checkbox",
         name: "license",
-        message: "Please provide the project license or your badge link",
-        choices: ['MIT', 'The Unlicense', 'Mozilla Public License', 'GNU AGPLv3', 'Apache License 2.0', 'Boost Software License 1.0']
+        message: "Please provide the project license (Check that apply):",
+        choices: ['N/A', 'MIT', 'GNU', 'OpenBSD', 'Rust', 'WordPress', 'Apache']
     },
     {
         type: "input",
         name: "contributing",
-        message: "Please provide the project contributing parties"
+        message: "Please provide the project contributing parties:"
     },
     {
         type: "input",
         name: "test",
-        message: "Please provide project tests"
+        message: "Please provide project tests:"
     },
     {
         type: "input",
         name: "repo",
-        message: "What is your repo link?"
+        message: "What is your repository link?:"
     },
 
   ]);
